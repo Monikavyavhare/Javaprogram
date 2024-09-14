@@ -1,10 +1,12 @@
-public class DisplayAlphabets
+ class HelloWorld
 {
-public static void main(String[]args)
-{
-   for(char ch = 'A'; ch <= 'z';ch++) 
-{
-System. out. println(ch + " ");
-}
-}
+    public static void main(String args[])
+    {
+        char c='A';
+        while(c<='Z')
+        {
+            System. out. println (" "+c);
+            c++;
+        }
+    }
 }
